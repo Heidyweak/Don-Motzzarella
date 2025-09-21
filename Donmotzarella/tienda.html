@@ -1,0 +1,42 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedido de Pizza 🍕</title>
+  <link rel="stylesheet" href="tienda.css">
+</head>
+<body>
+<nav class="navbar">
+  <div class="nav-left">
+    <a href="index.html">
+   <img src="img\logo.png" alt="logo" href="index.html">
+</a>
+    <span id="userDisplay" class="user-display"></span>
+  </div>
+  <div class="nav-right">
+        <a href="index.html#producto">PRODUCTOS</a>
+        <a href="index.html#res">RESEÑA</a>
+                <a href="index.html#encuentranos">UBICANOS</a>
+                <a href="index.html#contacto">CONTACTO</a>
+  </div>
+</nav>
+<div class="contenido">
+  <h1>Haz tu pedido 🍕</h1>
+
+  <div id="productos-container">
+    <!-- Productos generados por JS -->
+  </div>
+
+  <div class="pedido">
+    <h2>Tu pedido:</h2>
+    <ul id="resumen-pedido">
+      <li>Aún no hay productos</li>
+    </ul>
+    <button id="finalizar-btn">Finalizar Pedido</button>
+  </div>
+  </div>
+
+
+  <script src="tienda.js"></script>
+</body>
+</html>
