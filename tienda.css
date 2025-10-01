@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff3e0;
+  padding: 20px;
+  text-align: center;
+}
+/* Navbar fija */
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #ffffff;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.user-display {
+  font-weight: bold;
+}
+
+/* Items clicables a la derecha */
+.nav-right a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.nav-right a:hover {
+  text-decoration: underline;
+}
+.navbar{
+    display: flex;
+    background-color: #4CAF50;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px; /* más espacio horizontal */
+   position: fixed;
+   left: 0;
+top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-sizing: border-box;
+  height: 100px;
+}
+.user-display {
+  font-weight: bold;
+  margin-left: 20px;
+}
+.nav-left img{
+    height: 120px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-shrink: 0; /* no se encoge */
+}
+
+.nav-right {
+  display: flex;
+  gap: 20px;
+  flex-shrink: 0;
+}
+.contenido{
+margin-top: 150px;
+}
+h1 {
+  color: #d84315;
+}
+
+.producto {
+  border: 1px solid #d84315;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  width: 150px;
+}
+.producto img {
+  width: 100%;        /* Ocupa todo el ancho del contenedor */
+  height: 150px;      /* Altura fija */
+  object-fit: cover;  /* Ajusta la imagen sin deformarla */
+  border-radius: 10px;
+}
+.pedido {
+  margin-top: 20px;
+  border-top: 2px solid #d84315;
+  padding-top: 10px;
+}
+
+button {
+  background-color: #d84315;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+select {
+  margin-top: 5px;
+}
