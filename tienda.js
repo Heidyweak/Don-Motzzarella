@@ -2,7 +2,7 @@ const productos = [
   { id: 1, nombre: "Pepperoni", precio: 8, imagen: "img/p1.jpg" },
   { id: 2, nombre: "Vegetariana", precio: 10 , imagen: "img/p2.jpg"},
   { id: 3, nombre: "Hawaiana", precio: 9 , imagen: "img/p3.jpg"},
-  { id: 4, nombre: "Cuatro queos", precio: 7, imagen: "img/p4.jpg" },
+  { id: 4, nombre: "Cuatro quesos", precio: 7, imagen: "img/p4.jpg" },
   { id: 5, nombre: "Sencilla", precio: 6, imagen: "img/p6.jpg"},
   { id: 6, nombre: "BBQ Pollo", precio: 12, imagen: "img/p5.jpg" },
 ];
